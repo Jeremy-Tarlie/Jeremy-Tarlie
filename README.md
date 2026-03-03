@@ -20,7 +20,7 @@
 const jeremy = {
   role:         "Développeur Full-Stack",
   localisation: "France 🇫🇷",
-  formation:    "Master — Gestion de projet & IA @ Doranco",
+  formation:    "Master — Gestion de projet & IA @ Nexa",
   focus:        ["Développement Web", "Bots Discord", "Intégration IA"],
   en_ce_moment: "Je construis des trucs cool et je monte en compétences en IA 🤖",
   contact:      "contact@tarlie.fr",
