@@ -1,0 +1,40 @@
+# À placer dans ton repo Jeremy-Tarlie/Jeremy-Tarlie sous :
+#   .github/workflows/snake.yml
+#
+# Génère un SVG animé où un serpent mange ton graphe de contributions,
+# et le pousse sur une branche `output` que le README lit ensuite.
+
+name: Génération du serpent
+
+on:
+  schedule:
+    # Tous les jours à 00h00 UTC
+    - cron: "0 0 * * *"
+  # Bouton "Run workflow" dans l'onglet Actions
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Générer les SVG
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Jeremy-Tarlie
+          outputs: |
+            dist/snake.svg?palette=github-light
+            dist/snake-dark.svg?palette=github-dark
+
+      - name: Pousser sur la branche output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
