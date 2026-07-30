@@ -1,23 +1,26 @@
 <!-- ============================================================ -->
 <!--   PROFIL GITHUB — Jeremy Tarlie                              -->
-<!--   Ce fichier va dans le repo Jeremy-Tarlie/Jeremy-Tarlie     -->
-<!--   Lis GUIDE.md avant de le poser : l'ordre des étapes        -->
-<!--   compte, sinon les cartes de projets s'affichent vides.     -->
+<!--   Repo : Jeremy-Tarlie/Jeremy-Tarlie                         -->
+<!--                                                              -->
+<!--   PRINCIPE DE CE FICHIER :                                   -->
+<!--   la décoration peut dépendre de services externes,          -->
+<!--   le contenu jamais.                                         -->
+<!--                                                              -->
+<!--   - Bannière et texte animé  -> services tiers (décoratif)   -->
+<!--   - Projets, stack, contact  -> écrits en dur (incassable)   -->
+<!--   - Serpent                  -> généré dans TON repo         -->
+<!--                                                              -->
+<!--   Si un service tombe, tu perds du décor, jamais l'info.     -->
 <!-- ============================================================ -->
 
 
-<!-- ============================================================ -->
-<!--                      BANNIÈRE ANIMÉE                         -->
-<!-- ============================================================ -->
+<!-- ============ BANNIÈRE (décoratif, peut ne pas charger) ====== -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=190&section=header&text=Jeremy%20Tarlie&fontSize=58&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Full-Stack%20%C2%B7%20Python%20%C2%B7%20IA&descSize=18&descAlignY=60" width="100%" alt="banniere"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=190&section=header&text=Jeremy%20Tarlie&fontSize=58&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Full-Stack%20%C2%B7%20Python%20%C2%B7%20IA&descSize=18&descAlignY=60" width="100%" alt="Jeremy Tarlie — Full-Stack, Python, IA"/>
 
-<!-- Texte qui se tape tout seul (SVG animé) -->
-<a href="https://tarlie.fr">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=8B5CF6&center=true&vCenter=true&width=580&height=45&lines=Applications+web+full-stack+en+TypeScript;API+REST+et+microservices;Vision+et+g%C3%A9n%C3%A9ration+d'images+en+Python;RAG+et+int%C3%A9gration+de+LLM;Ouvert+aux+missions+freelance" alt="typing"/>
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=8B5CF6&center=true&vCenter=true&width=580&height=45&lines=Applications+web+full-stack+en+TypeScript;API+REST+et+microservices;Vision+et+g%C3%A9n%C3%A9ration+d'images+en+Python;RAG+et+int%C3%A9gration+de+LLM;Ouvert+aux+missions+freelance" alt="Applications web full-stack, IA, RAG, freelance"/>
 
 <br>
 
@@ -29,10 +32,6 @@
 
 <br>
 
-
-<!-- ============================================================ -->
-<!--                          À PROPOS                            -->
-<!-- ============================================================ -->
 
 ## À propos
 
@@ -51,165 +50,159 @@ Ouvert aux missions freelance et aux collaborations.
 
 
 <!-- ============================================================ -->
-<!--       PROJETS — cartes auto-alimentées par tes repos          -->
+<!--   PROJETS — écrits en dur, aucune dépendance externe.        -->
 <!--                                                              -->
-<!--  Ces cartes lisent en direct le titre, la description, le     -->
-<!--  langage et les étoiles de chaque repo. Rien à maintenir :    -->
-<!--  tu édites la description sur GitHub, la carte suit.         -->
+<!--   Les anciennes cartes venaient de github-readme-stats, dont -->
+<!--   l'instance publique tombe régulièrement et dont le dépôt   -->
+<!--   n'est plus maintenu. C'est ce qui affichait six images     -->
+<!--   cassées. Ici, rien ne peut casser.                          -->
 <!--                                                              -->
-<!--  ATTENTION : description vide = carte vide.                   -->
-<!--  Lance scripts/remplir-descriptions.sh AVANT de poser ce      -->
-<!--  fichier, sinon la section la plus importante du profil       -->
-<!--  s'affichera à moitié blanche.                                -->
+<!--   Contrepartie : les étoiles ne se mettent plus à jour       -->
+<!--   toutes seules. Sur des repos à 1 étoile, on ne perd rien.  -->
+<!--                                                              -->
+<!--   Pour modifier un projet : édite simplement le texte.       -->
 <!-- ============================================================ -->
 
 ## Projets
 
-<div align="center">
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/romain-zt/lenue-paris">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=romain-zt&repo=lenue-paris&theme=tokyonight&hide_border=true&border_radius=12&show_owner=true" width="49%"/>
-</a>
-<a href="https://github.com/Jeremy-Tarlie/site-with-chatbot">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jeremy-Tarlie&repo=site-with-chatbot&theme=tokyonight&hide_border=true&border_radius=12&show_owner=false" width="49%"/>
-</a>
+**[lenue-paris](https://github.com/romain-zt/lenue-paris)** · contribution
 
-<a href="https://github.com/Jeremy-Tarlie/generator-image-visage">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jeremy-Tarlie&repo=generator-image-visage&theme=tokyonight&hide_border=true&border_radius=12&show_owner=false" width="49%"/>
-</a>
-<a href="https://github.com/Jeremy-Tarlie/IA-classification-dog-cat">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jeremy-Tarlie&repo=IA-classification-dog-cat&theme=tokyonight&hide_border=true&border_radius=12&show_owner=false" width="49%"/>
-</a>
+Fonctionnalité de RAG appliquée au tri de code, livrée par pull requests sur un projet collaboratif actif.
 
-<a href="https://github.com/Jeremy-Tarlie/time-tracker">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jeremy-Tarlie&repo=time-tracker&theme=tokyonight&hide_border=true&border_radius=12&show_owner=false" width="49%"/>
-</a>
-<a href="https://github.com/Jeremy-Tarlie/portfolio">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jeremy-Tarlie&repo=portfolio&theme=tokyonight&hide_border=true&border_radius=12&show_owner=false" width="49%"/>
-</a>
+`TypeScript` · `RAG` · `LLM`
 
-<!-- Ces six cartes reprennent volontairement tes repos épinglés, dans un
-     ordre qui commence par le plus probant.
+</td>
+<td width="50%" valign="top">
 
-     lenue-paris ne t'appartient pas : tu ne peux pas éditer sa description,
-     la carte restera nue tant que romain-zt ne l'aura pas remplie.
+**[site-with-chatbot](https://github.com/Jeremy-Tarlie/site-with-chatbot)**
 
-     Si tu remets un projet backend dans tes pins (lebonclone-API-Rest ou
-     Achat-MicroService), change aussi la carte ici — sans quoi ton accroche
-     "API REST et microservices" n'est appuyée par rien de visible.
+Site web avec chatbot conversationnel intégré via une API de modèle de langage.
 
-     Volontairement absent : mydiscordbot (abandonné). Ne mets jamais en
-     avant un projet mort — c'est la première chose qu'un visiteur clique. -->
+`TypeScript` · `LLM`
 
-</div>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[generator-image-visage](https://github.com/Jeremy-Tarlie/generator-image-visage)**
+
+Génération de visages synthétiques par réseau de neurones antagoniste, entraîné en Python.
+
+`Python` · `GAN` · `Deep learning`
+
+</td>
+<td width="50%" valign="top">
+
+**[IA-classification-dog-cat](https://github.com/Jeremy-Tarlie/IA-classification-dog-cat)**
+
+Classification d'images par réseau convolutif, avec le pipeline d'entraînement complet.
+
+`Python` · `CNN` · `Vision`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[time-tracker](https://github.com/Jeremy-Tarlie/time-tracker)**
+
+Suivi du temps passé par projet, avec rapports et statistiques.
+
+`Python`
+
+</td>
+<td width="50%" valign="top">
+
+**[portfolio](https://github.com/Jeremy-Tarlie/portfolio)**
+
+Mon portfolio personnel — [tarlie.fr](https://tarlie.fr)
+
+`HTML` · `CSS`
+
+</td>
+</tr>
+</table>
+
+<!-- Vérifie chaque description ci-dessus : je les ai déduites des noms
+     de repos sans lire le code. Corrige ce qui est faux — sur un profil
+     public, une affirmation inexacte coûte plus cher qu'une absence.
+
+     Ces six projets sont les mêmes que tes repos épinglés, pour que le
+     README et les pins racontent la même histoire.
+
+     Si tu remets un projet backend dans tes pins (lebonclone-API-Rest
+     ou Achat-MicroService), ajoute-le ici aussi — sans quoi ton accroche
+     "API REST et microservices" n'est appuyée par rien de visible. -->
 
 <br>
 
-
-<!-- ============================================================ -->
-<!--                       CONTRIBUTIONS                          -->
-<!--                                                              -->
-<!--  VÉRIFIE ET CORRIGE CE PARAGRAPHE. Je l'ai déduit du nom de   -->
-<!--  tes branches (feat/rag, feat/rag-code-triage) sans lire le   -->
-<!--  code. Décris ce que tu as vraiment fait : une phrase juste   -->
-<!--  vaut mieux que trois phrases impressionnantes et fausses,    -->
-<!--  surtout sur un repo public que le recruteur peut ouvrir.     -->
-<!-- ============================================================ -->
 
 ## Contributions
 
 Je ne travaille pas que sur mes propres dépôts.
 
-**[romain-zt/lenue-paris](https://github.com/romain-zt/lenue-paris)** — j'y ai développé une fonctionnalité de **RAG appliquée au tri de code**, livrée par pull requests sur un projet collaboratif actif.
-
 <a href="https://github.com/romain-zt/lenue-paris/pulls?q=is%3Apr+author%3AJeremy-Tarlie">
-<img src="https://img.shields.io/badge/Voir_mes_pull_requests-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Mes PR"/>
+<img src="https://img.shields.io/badge/Mes_pull_requests_sur_lenue--paris-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Mes pull requests"/>
 </a>
 
 <br><br>
 
 
-<!-- ============================================================ -->
-<!--                            STACK                             -->
-<!-- ============================================================ -->
-
 ## Stack
 
-<div align="center">
+<!-- Badges servis par shields.io : service mature et fiable, contrairement
+     aux instances Vercel gratuites qui affichaient les cartes de projets. -->
 
 **Langages**
 
-<img src="https://skillicons.dev/icons?i=ts,js,python,java&theme=dark" height="48"/>
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 
-**Web & Frameworks**
+**Web**
 
-<img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,express,tailwind,vue&theme=dark" height="48"/>
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
 
 **IA & Données**
 
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,mysql&theme=dark" height="48"/>
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 **Outils**
 
-<img src="https://skillicons.dev/icons?i=docker,git,linux,vercel&theme=dark" height="48"/>
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-</div>
-
-<!-- Corrige cette liste selon la réalité de ton code :
-     - AJOUTÉ Python + Java : tes langages les plus présents, absents de
-       l'ancien README alors que tu as 7 repos Python.
-     - RETIRÉ PHP : tu n'as aucun repo PHP public.
-     - RETIRÉ HTML / CSS / VS Code : des prérequis, pas des compétences.
-       Les afficher à côté de Next.js te fait paraître plus junior.
-     - tensorflow / pytorch : garde seulement celui que tu utilises.
-     Catalogue complet des icônes : https://skillicons.dev -->
-
-<br>
-
-
-<!-- ============================================================ -->
-<!--                        STATISTIQUES                          -->
-<!--                                                              -->
-<!--  ⚠️ SUPPRIME TOUT CE BLOC si tu n'as pas activé              -->
-<!--  Settings -> Public profile -> Include private contributions. -->
-<!--  Sans ça, ton travail sur repos privés n'est pas compté et    -->
-<!--  ces widgets annoncent publiquement des semaines creuses.     -->
-<!--  Un profil sans graphe est neutre. Un graphe plat est un aveu.-->
-<!--                                                              -->
-<!--  Note : `count_private` est volontairement absent — sur       -->
-<!--  l'instance publique de github-readme-stats, le service n'a   -->
-<!--  aucun accès aux repos privés et ce paramètre ne fait rien.   -->
-<!--  Le graphe d'activité et la série de commits, eux, lisent le  -->
-<!--  calendrier de contributions et refléteront bien le privé     -->
-<!--  une fois le réglage activé.                                  -->
-<!-- ============================================================ -->
-
-## Statistiques
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Jeremy-Tarlie&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&include_all_commits=true&locale=fr" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jeremy-Tarlie&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=8&locale=fr" height="165"/>
-
-<br><br>
-
-<img src="https://streak-stats.demolab.com?user=Jeremy-Tarlie&theme=tokyonight&hide_border=true&border_radius=12&locale=fr" width="60%"/>
-
-<br><br>
-
-<!-- Graphe d'activité : la courbe se dessine au chargement -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jeremy-Tarlie&theme=tokyo-night&hide_border=true&radius=12&area=true&custom_title=Activit%C3%A9%20du%20dernier%20mois" width="100%"/>
-
-</div>
+<!-- Valide chaque techno : une techno affichée est une techno sur laquelle
+     on t'interrogera en entretien. PyTorch et TensorFlow sont tous les deux
+     là par défaut — garde celui que tu utilises vraiment, retire l'autre.
+     PHP a été retiré : tu n'as aucun repo PHP public.
+     HTML, CSS et VS Code ont été retirés : ce sont des prérequis, pas des
+     compétences, et les afficher te fait paraître plus junior. -->
 
 <br>
 
 
 <!-- ============================================================ -->
-<!--    SERPENT ANIMÉ                                             -->
-<!--    Nécessite .github/workflows/snake.yml.                     -->
-<!--    Restera une image cassée tant que l'Action n'a pas tourné  -->
-<!--    au moins une fois (onglet Actions -> Run workflow).        -->
+<!--   SERPENT ANIMÉ                                              -->
+<!--   Fiable : le SVG est généré par TON Action et stocké dans   -->
+<!--   TON repo. Aucun service tiers au moment de l'affichage.    -->
+<!--   Nécessite .github/workflows/snake.yml, lancé une fois      -->
+<!--   à la main (onglet Actions -> Run workflow).                -->
 <!-- ============================================================ -->
 
 <div align="center">
@@ -226,8 +219,20 @@ Je ne travaille pas que sur mes propres dépôts.
 
 
 <!-- ============================================================ -->
-<!--                           CONTACT                            -->
+<!--   SECTION STATISTIQUES : SUPPRIMÉE VOLONTAIREMENT            -->
+<!--                                                              -->
+<!--   Deux raisons cumulées :                                    -->
+<!--   1. Elle venait du même service en panne que les cartes.     -->
+<!--   2. Tes contributions privées ne sont pas publiées, donc     -->
+<!--      le graphe affichait 26 jours vides sur 31 alors que tu   -->
+<!--      as codé tout le mois.                                    -->
+<!--                                                              -->
+<!--   Si tu actives Settings -> Public profile -> Include private -->
+<!--   contributions, le graphe devient enfin flatteur et on       -->
+<!--   pourra le remettre. En attendant : un profil sans graphe    -->
+<!--   est neutre, un graphe plat est un aveu.                      -->
 <!-- ============================================================ -->
+
 
 <div align="center">
 
@@ -236,6 +241,6 @@ Je ne travaille pas que sur mes propres dépôts.
 <a href="https://tarlie.fr"><img src="https://img.shields.io/badge/Voir_mon_portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
 <a href="mailto:contact@tarlie.fr"><img src="https://img.shields.io/badge/M'%C3%A9crire-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=110&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=110&section=footer" width="100%" alt=""/>
 
 </div>
